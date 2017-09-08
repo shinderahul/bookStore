@@ -1,0 +1,33 @@
+{
+  "name": "bookstore-app",
+  "version": "1.0.0",
+  "description": "Book list app using MongoDB, Express.js, React.js and Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "keywords": [],
+  "author": "Rahul Shinde",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "express-rate-limit": "^2.9.0",
+    "mongoose": "^4.11.10",
+    "mongoose-unique-validator": "^1.0.5",
+    "mongoose-validator": "^1.3.2",
+    "string-capitalize-name": "^1.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shinderahul/bookStore.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shinderahul/bookStore/issues"
+  },
+  "homepage": "https://github.com/shinderahul/bookStore#readme"
+}
